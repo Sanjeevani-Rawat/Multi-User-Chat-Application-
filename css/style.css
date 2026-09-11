@@ -1,0 +1,115 @@
+
+html, body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(224, 223, 223), rgb(8, 67, 134));
+    overflow-y: scroll;  /* allows scroll */
+    scrollbar-width: none;  /* hides scrollbar in Firefox */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;  /* hides scrollbar in Chrome, Edge, Safari */
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container{
+    max-width: 955px;
+    /* background-color: brown; */
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    height: 50vh;
+    padding: 33px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 23px;
+    margin-top: 5px;
+}
+
+.message{
+    background: #fff;
+    color: #000;
+    width: 24%;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 70%;
+}
+
+.message.left{
+    background-color: #f1f0f0;
+    align-self: flex-start;
+    /* float: left;
+    clear: both; */
+}
+
+.message.right{
+    background-color: #c6c6c7;
+    align-self: flex-end;
+    /* float: right;
+    clear: both; */
+}
+
+.message.center {
+    background-color: #dcdcdc;
+    color: #333;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin: 10px auto;
+    padding: 8px 16px;
+    max-width: 60%;
+    display: block;
+    opacity: 0.85;
+    font-style: italic;
+}
+
+.message strong {
+    font-weight: bold;
+    color: #000;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp{
+    width: 80%;
+    border-color: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 20px;
+}
+
+.btn{
+    margin: 0 5px;
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
