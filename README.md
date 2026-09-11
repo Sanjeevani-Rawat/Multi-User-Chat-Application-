@@ -15,7 +15,7 @@ Visual Overviews
 Below are structural and interfacial views captured from the live application environment:
 
 
-| <img src="ChatApp Screenshots/3 Interface.jpeg" width="380" alt="Local Folder Map Structure"> | 
+<img src="ChatApp Screenshots/3 Interface.jpeg" width="580" alt="ChatApp Screenshots > Screenshot 3"> 
 
 ---
 
